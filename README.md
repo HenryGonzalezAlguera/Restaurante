@@ -75,7 +75,7 @@ El proyecto utiliza un **reactor Maven de dos módulos**:
 
    ```bash
    git clone https://github.com/HenryGonzalezAlguera/Restaurante.git
-   cd Proyecto-final-restaurante
+   cd Restaurante
    ```
 
 2. En una base **dedicada** `restaurante_portafolio`, prepara el esquema y las migraciones desde `database/` **en este orden**:
