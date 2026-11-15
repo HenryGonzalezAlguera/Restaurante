@@ -16,7 +16,7 @@ Lo que más destaco del desarrollo:
 Es una **demo funcional local** para mi portafolio, no un producto comercial desplegado. Me permitió practicar tanto la implementación de funcionalidades como la seguridad, las pruebas y la documentación técnica.
 
 Código y documentación:
-https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante
+https://github.com/HenryGonzalezAlguera/Restaurante
 
 #Java #SpringBoot #MySQL #BackendDevelopment #SoftwareEngineering #GitHub
 
@@ -30,7 +30,7 @@ I focused on separating business logic from HTTP controllers, using JDBC transac
 
 This is a **working local portfolio demo**, not a deployed production service.
 
-Repository: https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante
+Repository: https://github.com/HenryGonzalezAlguera/Restaurante
 
 #Java #SpringBoot #MySQL #BackendDevelopment #SoftwareEngineering
 
@@ -42,7 +42,7 @@ Repository: https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante
 
 **Tecnologías:** Java, Spring Boot, Spring MVC, Spring Security, JDBC, MySQL, Thymeleaf, Maven, JUnit, MockMvc, GitHub Actions.
 
-**Enlace:** https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante
+**Enlace:** https://github.com/HenryGonzalezAlguera/Restaurante
 
 **Capturas:** adjuntar únicamente las fotos sanitizadas de [CAPTURAS.md](CAPTURAS.md) cuando estén disponibles.
 
@@ -53,3 +53,20 @@ Repository: https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante
 **Topics sugeridos:** `java`, `spring-boot`, `mysql`, `jdbc`, `thymeleaf`, `spring-security`, `rest-api`, `junit`, `github-actions`, `portfolio-project`.
 
 La descripción y los topics deben configurarse desde GitHub cuando el dueño del repositorio decida publicarlos. No se deben presentar como ya cambiados hasta comprobarlos.
+
+## Material visual y control de publicación
+
+**Capturas de pantalla:** todavía no existen PNG funcionales en el repositorio. El proceso para producirlas a partir de una sesión local con datos sintéticos se encuentra en [CAPTURAS.md](CAPTURAS.md) y la carpeta [screenshots](screenshots/README.md).
+
+Mientras no existan esas imágenes, la publicación puede incluir **solo el enlace del repositorio** o un gráfico de portada expresamente rotulado «ilustración de proyecto». Una imagen generada no debe presentarse como evidencia del funcionamiento real.
+
+### Checklist
+
+- [ ] Revisar que el enlace real sea https://github.com/HenryGonzalezAlguera/Restaurante (el repositorio cambió de nombre).
+- [ ] Comprobar el último resultado de [Java Maven CI](https://github.com/HenryGonzalezAlguera/Restaurante/actions/workflows/java-maven.yml).
+- [ ] No anunciar demo pública: esta aplicación **solo se ejecuta localmente**.
+- [ ] No atribuir pagos, reservas, inventario ni facturación: son funcionalidades **fuera del alcance**.
+- [ ] Usar únicamente capturas reales y sanitizadas, cuando estén disponibles.
+- [ ] Elegir versión en español o inglés, publicar el texto desde LinkedIn y verificar la vista previa del enlace.
+
+**Texto para Destacados:** Java / Spring Boot restaurant order management system featuring transactional JDBC persistence, MySQL, REST API, Spring Security and automated tests. Local portfolio demo (no public hosting).

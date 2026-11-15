@@ -1,6 +1,6 @@
 # Restaurante | Sistema de gestión de pedidos
 
-[![Java Maven CI](https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante/actions/workflows/java-maven.yml/badge.svg?branch=main)](https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante/actions/workflows/java-maven.yml)
+[![Java Maven CI](https://github.com/HenryGonzalezAlguera/Restaurante/actions/workflows/java-maven.yml/badge.svg?branch=main)](https://github.com/HenryGonzalezAlguera/Restaurante/actions/workflows/java-maven.yml)
 ![Java 17](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
 ![Spring Boot 4.1.2](https://img.shields.io/badge/Spring%20Boot-4.1.2-6DB33F?logo=springboot&logoColor=white)
 ![MySQL 8](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
@@ -27,7 +27,7 @@
 
 ### Capturas de pantalla
 
-Las capturas de la interfaz todavía **no están publicadas** en este repositorio. La [guía de capturas](docs/CAPTURAS.md) detalla las seis vistas recomendadas y cómo eliminar datos privados antes de subirlas. La ausencia de imágenes no afecta el funcionamiento ni las pruebas del proyecto.
+Las capturas de la interfaz todavía **no están publicadas** en este repositorio. La [guía de capturas](docs/CAPTURAS.md) detalla las seis vistas recomendadas y cómo eliminar datos privados antes de subirlas. La ausencia de imágenes no afecta el funcionamiento ni las pruebas del proyecto. **Para presentar el trabajo en LinkedIn:** [textos listos para publicar y enlaces vigentes](docs/PUBLICACION_LINKEDIN.md). No se incluyen capturas ficticias.
 
 ## Tecnologías
 
@@ -74,8 +74,8 @@ El proyecto utiliza un **reactor Maven de dos módulos**:
 1. Clona el repositorio y entra en la carpeta:
 
    ```bash
-   git clone https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante.git
-   cd Proyecto-final-restaurante
+   git clone https://github.com/HenryGonzalezAlguera/Restaurante.git
+   cd Restaurante
    ```
 
 2. En una base **dedicada** `restaurante_portafolio`, prepara el esquema y las migraciones desde `database/` **en este orden**:
@@ -143,7 +143,7 @@ Los `POST` requieren **cookie de sesión y token CSRF**; no son endpoints públi
 
 La ejecución `mvn -f pom.xml clean verify` construye ambos módulos. **GitHub Actions** también levanta MySQL 8.4 en un contenedor aislado `restaurante_ci` para verificar JDBC, estados, usuarios y auditoría, y utiliza MockMvc para probar rutas, roles, sesiones y CSRF.
 
-[Consultar ejecuciones de CI](https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante/actions/workflows/java-maven.yml)
+[Consultar ejecuciones de CI](https://github.com/HenryGonzalezAlguera/Restaurante/actions/workflows/java-maven.yml)
 
 ## Límites conocidos y próximas mejoras
 
