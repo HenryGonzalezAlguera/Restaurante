@@ -9,7 +9,7 @@ Esta guía permite enseñar capacidades técnicas **sin dar acceso público al s
 - [ ] Iniciar Spring Boot en `127.0.0.1:8085`.
 - [ ] Verificar que puedes iniciar sesión como administrador; el repositorio **no contiene** usuario/contraseña públicos.
 - [ ] Usar solo IDs, nombres y cuentas ficticias. Evitar nombres completos, números reales, correos privados o contraseñas en capturas.
-- [ ] Mantener abierta la página de [GitHub Actions](https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante/actions/workflows/java-maven.yml) para evidenciar CI.
+- [ ] Mantener abierta la página de [GitHub Actions](https://github.com/HenryGonzalezAlguera/Restaurante/actions/workflows/java-maven.yml) para evidenciar CI.
 
 ## Guion para una demostración técnica
 
@@ -45,7 +45,7 @@ Auditoría se escribe después de la operación, con una transacción diferente.
 
 ## Material para reclutamiento
 
-- URL del repositorio: https://github.com/HenryGonzalezAlguera/Proyecto-final-restaurante
+- URL del repositorio: https://github.com/HenryGonzalezAlguera/Restaurante
 - Introducción, tecnologías y pasos de instalación: [README principal](../README.md)
 - Diseño técnico: [ARQUITECTURA.md](ARQUITECTURA.md)
 - Evidencia visual segura: [CAPTURAS.md](CAPTURAS.md)
